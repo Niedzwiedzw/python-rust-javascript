@@ -20,3 +20,19 @@ https://rustwasm.github.io/docs/book/game-of-life/setup.html
 ```bash
 ./build.sh js  # or python
 ```
+
+## running
+### python
+```bash
+./build.sh python
+cd ./example_python
+./main.py
+```
+
+### javascript
+```bash
+cd example-javascript/www
+npm install
+npm run start
+# visit localhost:8080 for result
+```
