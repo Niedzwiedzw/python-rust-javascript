@@ -21,7 +21,7 @@ if [ "$TARGET" = "python" ]; then
 fi
 
 if [ "$TARGET" = "js" ]; then
-    wasm-pack build
+    wasm-pack build -- --no-default-features --features javascript_dev
     echo "done"
     exit 0
 fi
